@@ -207,6 +207,8 @@
 
   </section>
 
+ <!-- Back to Top Button -->
+ <a id="back-to-top" href="#" class="btn btn-dark btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
 
   <!-- Footer -->
 
@@ -218,6 +220,26 @@
     <p>© Copyright 2019 TinDog</p>
   </footer>
 
+   <script type="text/javascript">
+    var mybutton = document.getElementById('back-to-top')
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+
+  </script> 
+  
 </body>
 
 </html>
