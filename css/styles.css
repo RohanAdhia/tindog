@@ -160,7 +160,7 @@ p {
 .back-to-top {
     position: fixed;
     bottom: 25px;
-    right: 25px;
+    right: 48px;
     display: none;
     background-color: #FF4C68;
     color: #FFF;
