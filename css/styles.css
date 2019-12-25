@@ -155,6 +155,17 @@ p {
   color: #FFF;
 }
 
+/* Back to Top Button */
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    background-color: #FF4C68;
+    color: #FFF;
+}
+
 /* Footer Section */
 #footer {
   padding: 7% 15%;
